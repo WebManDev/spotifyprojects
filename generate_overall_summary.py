@@ -3,6 +3,8 @@ import re
 from collections import Counter
 import csv
 from pathlib import Path
+import matplotlib.pyplot as plt
+import os
 
 STOPWORDS = {
     "the", "and", "or", "a", "an", "of", "to", "in", "on", "for", "with", "from",
@@ -26,6 +28,21 @@ def tokenize(text: str) -> list[str]:
             continue
         out.append(t)
     return out
+
+def save_barh(out_path: Path, title: str, labels: list, values: list):
+    if not labels:
+        return
+    # Reverse so top item is at top of bar chart
+    labels = labels[::-1]
+    values = values[::-1]
+    
+    plt.figure(figsize=(12, 8))
+    plt.barh(labels, values)
+    plt.title(title)
+    plt.xlabel("Value")
+    plt.tight_layout()
+    plt.savefig(out_path, dpi=200)
+    plt.close()
 
 def main():
     tracks_path = "spotify_playlist_tracks.csv"
@@ -62,6 +79,8 @@ def main():
         weighted_score=("weight", "sum")
     ).reset_index()
     top_50_tracks = track_counts.sort_values("count", ascending=False).head(50)
+    top_50_tracks_playlist = track_counts.sort_values("playlist_count", ascending=False).head(50)
+    top_50_tracks_weighted = track_counts.sort_values("weighted_score", ascending=False).head(50)
 
     # Top 50 artists
     print("Calculating top artists...")
@@ -76,6 +95,8 @@ def main():
         weighted_score=("weight", "sum")
     ).reset_index()
     top_50_artists = artist_counts.sort_values("count", ascending=False).head(50)
+    top_50_artists_playlist = artist_counts.sort_values("playlist_count", ascending=False).head(50)
+    top_50_artists_weighted = artist_counts.sort_values("weighted_score", ascending=False).head(50)
 
     # Top 50 keywords in title and description
     print("Calculating keywords...")
@@ -87,6 +108,34 @@ def main():
         
     top_50_title_kw = Counter(title_words).most_common(50)
     top_50_desc_kw = Counter(desc_words).most_common(50)
+
+    print("Generating graphs...")
+    graphs_dir = Path("graphs")
+    graphs_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Track labels
+    track_labels_count = (top_50_tracks["trackName"] + " - " + top_50_tracks["trackArtists"]).tolist()
+    save_barh(graphs_dir / "top_50_tracks_by_count.png", "Top 50 Tracks by Count", track_labels_count, top_50_tracks["count"].tolist())
+    
+    track_labels_pl = (top_50_tracks_playlist["trackName"] + " - " + top_50_tracks_playlist["trackArtists"]).tolist()
+    save_barh(graphs_dir / "top_50_tracks_by_playlist_count.png", "Top 50 Tracks by Playlist Count", track_labels_pl, top_50_tracks_playlist["playlist_count"].tolist())
+    
+    track_labels_w = (top_50_tracks_weighted["trackName"] + " - " + top_50_tracks_weighted["trackArtists"]).tolist()
+    save_barh(graphs_dir / "top_50_tracks_by_weighted_score.png", "Top 50 Tracks by Weighted Score", track_labels_w, top_50_tracks_weighted["weighted_score"].tolist())
+
+    # Artist graphs
+    save_barh(graphs_dir / "top_50_artists_by_count.png", "Top 50 Artists by Count", top_50_artists["trackArtists"].tolist(), top_50_artists["count"].tolist())
+    save_barh(graphs_dir / "top_50_artists_by_playlist_count.png", "Top 50 Artists by Playlist Count", top_50_artists_playlist["trackArtists"].tolist(), top_50_artists_playlist["playlist_count"].tolist())
+    save_barh(graphs_dir / "top_50_artists_by_weighted_score.png", "Top 50 Artists by Weighted Score", top_50_artists_weighted["trackArtists"].tolist(), top_50_artists_weighted["weighted_score"].tolist())
+    
+    # Keyword graphs
+    title_kw_labels = [k for k, v in top_50_title_kw]
+    title_kw_values = [v for k, v in top_50_title_kw]
+    save_barh(graphs_dir / "top_50_title_keywords.png", "Top 50 Title Keywords", title_kw_labels, title_kw_values)
+
+    desc_kw_labels = [k for k, v in top_50_desc_kw]
+    desc_kw_values = [v for k, v in top_50_desc_kw]
+    save_barh(graphs_dir / "top_50_description_keywords.png", "Top 50 Description Keywords", desc_kw_labels, desc_kw_values)
 
     # Write to single CSV
     out_csv = "playlist_overall_summary.csv"
