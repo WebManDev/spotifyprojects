@@ -29,7 +29,7 @@ def tokenize(text: str) -> list[str]:
         out.append(t)
     return out
 
-def save_barh(out_path: Path, title: str, labels: list, values: list):
+def save_barh(out_path: Path, title: str, labels: list, values: list, left_margin=None):
     if not labels:
         return
     # Reverse so top item is at top of bar chart
@@ -44,8 +44,11 @@ def save_barh(out_path: Path, title: str, labels: list, values: list):
     plt.title(title)
     plt.xlabel("Value")
     
-    # Manually adjust left margin to accommodate long labels (up to 60 chars)
-    plt.subplots_adjust(left=0.35, right=0.95, top=0.95, bottom=0.08)
+    if left_margin is not None:
+        # Manually adjust left margin to accommodate long labels
+        plt.subplots_adjust(left=left_margin, right=0.95, top=0.95, bottom=0.08)
+    else:
+        plt.tight_layout()
     
     plt.savefig(out_path, dpi=200)
     plt.close()
@@ -127,7 +130,7 @@ def main():
     save_barh(graphs_dir / "top_50_tracks_by_playlist_count.png", "Top 50 Tracks by Playlist Count", track_labels_pl, top_50_tracks_playlist["playlist_count"].tolist())
     
     track_labels_w = (top_50_tracks_weighted["trackName"] + " - " + top_50_tracks_weighted["trackArtists"]).tolist()
-    save_barh(graphs_dir / "top_50_tracks_by_weighted_score.png", "Top 50 Tracks by Weighted Score", track_labels_w, top_50_tracks_weighted["weighted_score"].tolist())
+    save_barh(graphs_dir / "top_50_tracks_by_weighted_score.png", "Top 50 Tracks by Weighted Score", track_labels_w, top_50_tracks_weighted["weighted_score"].tolist(), left_margin=0.35)
 
     # Artist graphs
     save_barh(graphs_dir / "top_50_artists_by_count.png", "Top 50 Artists by Count", top_50_artists["trackArtists"].tolist(), top_50_artists["count"].tolist())
