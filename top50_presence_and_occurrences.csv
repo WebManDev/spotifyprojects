@@ -1,0 +1,201 @@
+category,rank,value,playlist_count,playlist_rate,total_occurrences
+trackName,1,Home,91,0.141966,112
+trackName,2,Runaway,72,0.112324,78
+trackName,3,Creep,71,0.110764,77
+trackName,4,Stay,65,0.101404,80
+trackName,5,Heaven,61,0.095164,76
+trackName,6,Numb,60,0.093604,69
+trackName,7,Funeral,58,0.090484,916
+trackName,8,Iris,58,0.090484,63
+trackName,9,Forever,56,0.087363,63
+trackName,10,Hallelujah,54,0.084243,64
+trackName,11,Hold On,54,0.084243,60
+trackName,12,No Surprises,54,0.084243,57
+trackName,13,Monster,52,0.081123,67
+trackName,14,Angel,52,0.081123,56
+trackName,15,Memories,51,0.079563,60
+trackName,16,The Night We Met,51,0.079563,58
+trackName,17,Yellow,49,0.076443,49
+trackName,18,See You Again (feat. Charlie Puth),48,0.074883,52
+trackName,19,Mr. Brightside,48,0.074883,49
+trackName,20,Sweater Weather,48,0.074883,49
+trackName,21,Let Down,48,0.074883,48
+trackName,22,Pain,48,0.074883,48
+trackName,23,My Way,47,0.073323,53
+trackName,24,Wish You Were Here,47,0.073323,53
+trackName,25,Ride,47,0.073323,52
+trackName,26,I Hate Everything About You,47,0.073323,51
+trackName,27,505,46,0.071763,47
+trackName,28,Moonlight,45,0.070203,55
+trackName,29,Lost,45,0.070203,49
+trackName,30,All I Want,45,0.070203,48
+trackName,31,Flashing Lights,45,0.070203,47
+trackName,32,Fourth of July,45,0.070203,46
+trackName,33,See You Again (feat. Kali Uchis),45,0.070203,46
+trackName,34,Everlong,45,0.070203,45
+trackName,35,Heartless,44,0.068643,50
+trackName,36,All I Need,44,0.068643,48
+trackName,37,Bring Me To Life,44,0.068643,47
+trackName,38,Amazing Grace,43,0.067083,91
+trackName,39,Zombie,43,0.067083,48
+trackName,40,How to Save a Life,43,0.067083,44
+trackName,41,Hurricane,43,0.067083,44
+trackName,42,Money Trees,42,0.065523,47
+trackName,43,Smells Like Teen Spirit,42,0.065523,47
+trackName,44,Poison,42,0.065523,46
+trackName,45,The Scientist,42,0.065523,43
+trackName,46,In My Room,41,0.063963,47
+trackName,47,Alright,41,0.063963,43
+trackName,48,Break,41,0.063963,43
+trackName,49,Feel Good Inc.,41,0.063963,42
+trackName,50,She,41,0.063963,42
+albumName,1,Greatest Hits,148,0.230889,383
+albumName,2,OK Computer,83,0.129485,223
+albumName,3,AM,73,0.113885,203
+albumName,4,Parachutes,71,0.110764,103
+albumName,5,Blonde,68,0.106084,220
+albumName,6,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",65,0.101404,147
+albumName,7,Nevermind (Remastered),63,0.098284,170
+albumName,8,DAMN.,62,0.096724,197
+albumName,9,Hot Fuss,62,0.096724,106
+albumName,10,Pablo Honey,60,0.093604,89
+albumName,11,÷ (Deluxe),59,0.092044,89
+albumName,12,Graduation,58,0.090484,251
+albumName,13,Fallen,58,0.090484,113
+albumName,14,Doo-Wops & Hooligans,55,0.085803,98
+albumName,15,A Rush of Blood to the Head,55,0.085803,76
+albumName,16,The Black Parade,54,0.084243,164
+albumName,17,How To Save A Life,54,0.084243,71
+albumName,18,IGOR,53,0.082683,184
+albumName,19,Cigarettes After Sex,53,0.082683,132
+albumName,20,Californication (Deluxe Edition),53,0.082683,87
+albumName,21,25,53,0.082683,82
+albumName,22,Strange Trails,53,0.082683,63
+albumName,23,Blurryface,52,0.081123,137
+albumName,24,My Beautiful Dark Twisted Fantasy,51,0.079563,175
+albumName,25,Flower Boy,51,0.079563,117
+albumName,26,The Bends,51,0.079563,114
+albumName,27,Demon Days,51,0.079563,109
+albumName,28,Currents,50,0.078003,129
+albumName,29,?,50,0.078003,127
+albumName,30,17,50,0.078003,123
+albumName,31,"""Awaken, My Love!""",50,0.078003,94
+albumName,32,I Love You.,50,0.078003,76
+albumName,33,The Colour And The Shape,49,0.076443,85
+albumName,34,Brand New Eyes,49,0.076443,80
+albumName,35,Grace,48,0.074883,107
+albumName,36,Louder Than Bombs,48,0.074883,106
+albumName,37,Who Really Cares,48,0.074883,104
+albumName,38,Dizzy up the Girl,48,0.074883,57
+albumName,39,One-X,47,0.073323,170
+albumName,40,The Fame,47,0.073323,94
+albumName,41,channel ORANGE,46,0.071763,148
+albumName,42,Views,46,0.071763,130
+albumName,43,The Eminem Show,46,0.071763,101
+albumName,44,Rumours (Super Deluxe),46,0.071763,69
+albumName,45,See You Again (feat. Charlie Puth),46,0.071763,47
+albumName,46,"good kid, m.A.A.d city (Deluxe)",45,0.070203,177
+albumName,47,Weezer,45,0.070203,130
+albumName,48,The Marshall Mathers LP,45,0.070203,84
+albumName,49,Camp,45,0.070203,80
+albumName,50,Carrie & Lowell,45,0.070203,48
+artistName,1,Coldplay,129,0.201248,399
+artistName,2,Kanye West,126,0.196568,1743
+artistName,3,Radiohead,125,0.195008,802
+artistName,4,Billie Eilish,114,0.177847,684
+artistName,5,Bruno Mars,114,0.177847,383
+artistName,6,Kendrick Lamar,112,0.174727,1387
+artistName,7,Wiz Khalifa,112,0.174727,215
+artistName,8,Rihanna,109,0.170047,450
+artistName,9,The Weeknd,106,0.165367,646
+artistName,10,Lady Gaga,106,0.165367,436
+artistName,11,"Tyler, The Creator",102,0.159126,936
+artistName,12,Eminem,100,0.156006,659
+artistName,13,Drake,96,0.149766,1932
+artistName,14,Lil Wayne,95,0.148206,425
+artistName,15,The Beatles,95,0.148206,399
+artistName,16,XXXTENTACION,92,0.143526,563
+artistName,17,Linkin Park,92,0.143526,435
+artistName,18,Pharrell Williams,92,0.143526,193
+artistName,19,Frank Ocean,91,0.141966,577
+artistName,20,Arctic Monkeys,91,0.141966,487
+artistName,21,Taylor Swift,90,0.140406,665
+artistName,22,Ed Sheeran,90,0.140406,301
+artistName,23,Queen,89,0.138846,234
+artistName,24,Green Day,88,0.137285,396
+artistName,25,Adele,87,0.135725,242
+artistName,26,Beyoncé,86,0.134165,227
+artistName,27,Travis Scott,85,0.132605,1107
+artistName,28,Lana Del Rey,85,0.132605,558
+artistName,29,Post Malone,85,0.132605,420
+artistName,30,Elton John,85,0.132605,185
+artistName,31,Fleetwood Mac,84,0.131045,242
+artistName,32,Justin Bieber,84,0.131045,227
+artistName,33,Mitski,83,0.129485,388
+artistName,34,The Neighbourhood,82,0.127925,314
+artistName,35,Ty Dolla $ign,82,0.127925,267
+artistName,36,Childish Gambino,81,0.126365,364
+artistName,37,Kali Uchis,81,0.126365,253
+artistName,38,Nirvana,80,0.124805,550
+artistName,39,Paramore,80,0.124805,334
+artistName,40,Lil Uzi Vert,79,0.123245,824
+artistName,41,Gorillaz,79,0.123245,444
+artistName,42,JAŸ-Z,79,0.123245,374
+artistName,43,Chris Brown,79,0.123245,178
+artistName,44,SZA,78,0.121685,450
+artistName,45,Hozier,78,0.121685,195
+artistName,46,Future,77,0.120125,877
+artistName,47,Red Hot Chili Peppers,77,0.120125,257
+artistName,48,A$AP Rocky,76,0.118565,458
+artistName,49,Michael Jackson,76,0.118565,257
+artistName,50,Maroon 5,75,0.117005,150
+trackName+artistName,1,Creep | Radiohead,59,0.092044,60
+trackName+artistName,2,No Surprises | Radiohead,54,0.084243,56
+trackName+artistName,3,Iris | The Goo Goo Dolls,52,0.081123,54
+trackName+artistName,4,The Night We Met | Lord Huron,48,0.074883,53
+trackName+artistName,5,See You Again (feat. Charlie Puth) | Charlie Puth,48,0.074883,52
+trackName+artistName,6,See You Again (feat. Charlie Puth) | Wiz Khalifa,48,0.074883,52
+trackName+artistName,7,Mr. Brightside | The Killers,48,0.074883,49
+trackName+artistName,8,I Hate Everything About You | Three Days Grace,46,0.071763,50
+trackName+artistName,9,Let Down | Radiohead,46,0.071763,46
+trackName+artistName,10,Flashing Lights | Kanye West,45,0.070203,47
+trackName+artistName,11,505 | Arctic Monkeys,45,0.070203,46
+trackName+artistName,12,See You Again (feat. Kali Uchis) | Kali Uchis,45,0.070203,46
+trackName+artistName,13,"See You Again (feat. Kali Uchis) | Tyler, The Creator",45,0.070203,46
+trackName+artistName,14,Everlong | Foo Fighters,45,0.070203,45
+trackName+artistName,15,Bring Me To Life | Evanescence,44,0.068643,47
+trackName+artistName,16,Fourth of July | Sufjan Stevens,44,0.068643,45
+trackName+artistName,17,Sweater Weather | The Neighbourhood,44,0.068643,45
+trackName+artistName,18,Flashing Lights | Dwele,44,0.068643,44
+trackName+artistName,19,Yellow | Coldplay,44,0.068643,44
+trackName+artistName,20,Money Trees | Jay Rock,42,0.065523,47
+trackName+artistName,21,Money Trees | Kendrick Lamar,42,0.065523,47
+trackName+artistName,22,How to Save a Life | The Fray,42,0.065523,43
+trackName+artistName,23,Feel Good Inc. | De La Soul,41,0.063963,42
+trackName+artistName,24,Feel Good Inc. | Gorillaz,41,0.063963,42
+trackName+artistName,25,Teenagers | My Chemical Romance,41,0.063963,42
+trackName+artistName,26,The Scientist | Coldplay,41,0.063963,41
+trackName+artistName,27,Redbone | Childish Gambino,40,0.062402,42
+trackName+artistName,28,Supermarket Flowers | Ed Sheeran,40,0.062402,41
+trackName+artistName,29,Do I Wanna Know? | Arctic Monkeys,39,0.060842,41
+trackName+artistName,30,Smells Like Teen Spirit | Nirvana,39,0.060842,40
+trackName+artistName,31,Talking to the Moon | Bruno Mars,39,0.060842,40
+trackName+artistName,32,Change (In the House of Flies) | Deftones,39,0.060842,39
+trackName+artistName,33,Somebody That I Used To Know | Gotye,38,0.059282,39
+trackName+artistName,34,Somebody That I Used To Know | Kimbra,38,0.059282,39
+trackName+artistName,35,Come As You Are | Nirvana,37,0.057722,39
+trackName+artistName,36,I Wanna Be Yours | Arctic Monkeys,37,0.057722,38
+trackName+artistName,37,In the End | Linkin Park,37,0.057722,38
+trackName+artistName,38,SLOW DANCING IN THE DARK | Joji,37,0.057722,38
+trackName+artistName,39,Runaway | Kanye West,37,0.057722,37
+trackName+artistName,40,Runaway | Pusha T,37,0.057722,37
+trackName+artistName,41,Numb | Linkin Park,36,0.056162,39
+trackName+artistName,42,Chop Suey! | System Of A Down,36,0.056162,38
+trackName+artistName,43,Animal I Have Become | Three Days Grace,36,0.056162,37
+trackName+artistName,44,PRIDE. | Kendrick Lamar,36,0.056162,37
+trackName+artistName,45,White Ferrari | Frank Ocean,36,0.056162,36
+trackName+artistName,46,I Wonder | Kanye West,35,0.054602,37
+trackName+artistName,47,Apocalypse | Cigarettes After Sex,35,0.054602,36
+trackName+artistName,48,How Do I Say Goodbye | Dean Lewis,35,0.054602,35
+trackName+artistName,49,Lovers Rock | TV Girl,35,0.054602,35
+trackName+artistName,50,Somebody Told Me | The Killers,35,0.054602,35
