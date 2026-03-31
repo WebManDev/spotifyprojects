@@ -36,11 +36,17 @@ def save_barh(out_path: Path, title: str, labels: list, values: list):
     labels = labels[::-1]
     values = values[::-1]
     
-    plt.figure(figsize=(12, 8))
-    plt.barh(labels, values)
+    # Truncate labels if they are too long
+    truncated_labels = [lbl if len(lbl) <= 60 else lbl[:57] + "..." for lbl in labels]
+    
+    plt.figure(figsize=(14, 10))
+    plt.barh(truncated_labels, values)
     plt.title(title)
     plt.xlabel("Value")
-    plt.tight_layout()
+    
+    # Manually adjust left margin to accommodate long labels (up to 60 chars)
+    plt.subplots_adjust(left=0.35, right=0.95, top=0.95, bottom=0.08)
+    
     plt.savefig(out_path, dpi=200)
     plt.close()
 
