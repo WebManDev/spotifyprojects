@@ -1,10 +1,11 @@
+#!/usr/bin/env python3
+import argparse
 import pandas as pd
 import re
 from collections import Counter
 import csv
 from pathlib import Path
 import matplotlib.pyplot as plt
-import os
 
 STOPWORDS = {
     "the", "and", "or", "a", "an", "of", "to", "in", "on", "for", "with", "from",
@@ -25,6 +26,8 @@ def tokenize(text: str) -> list[str]:
         if len(t) < 3:
             continue
         if t in STOPWORDS:
+            continue
+        if t == "nan":
             continue
         out.append(t)
     return out
@@ -54,8 +57,33 @@ def save_barh(out_path: Path, title: str, labels: list, values: list, left_margi
     plt.close()
 
 def main():
-    tracks_path = "spotify_playlist_tracks.csv"
-    playlists_path = "spotify_playlists_clean.csv"
+    parser = argparse.ArgumentParser(
+        description="Generate overall summary tables/graphs from playlist and track CSVs."
+    )
+    parser.add_argument(
+        "--tracks-csv",
+        default="spotify_playlist_tracks.csv",
+        help="Input tracks CSV path",
+    )
+    parser.add_argument(
+        "--playlists-csv",
+        default="spotify_playlists_clean.csv",
+        help="Input playlists CSV path",
+    )
+    parser.add_argument(
+        "--graphs-dir",
+        default="graphs",
+        help="Output directory for graph PNGs",
+    )
+    parser.add_argument(
+        "--summary-csv",
+        default="playlist_overall_summary.csv",
+        help="Output summary CSV path",
+    )
+    args = parser.parse_args()
+
+    tracks_path = args.tracks_csv
+    playlists_path = args.playlists_csv
     
     print("Loading tracks data...")
     df_tracks = pd.read_csv(tracks_path, dtype=str)
@@ -119,7 +147,7 @@ def main():
     top_50_desc_kw = Counter(desc_words).most_common(50)
 
     print("Generating graphs...")
-    graphs_dir = Path("graphs")
+    graphs_dir = Path(args.graphs_dir)
     graphs_dir.mkdir(parents=True, exist_ok=True)
     
     # Track labels
@@ -147,7 +175,7 @@ def main():
     save_barh(graphs_dir / "top_50_description_keywords.png", "Top 50 Description Keywords", desc_kw_labels, desc_kw_values)
 
     # Write to single CSV
-    out_csv = "playlist_overall_summary.csv"
+    out_csv = args.summary_csv
     print(f"Writing results to {out_csv}...")
     with open(out_csv, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)

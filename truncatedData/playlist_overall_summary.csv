@@ -1,0 +1,216 @@
+Metric,Value,,
+Number of Playlists,575,,
+Number of Tracks (Total rows),166660,,
+Tracks per playlist (Mean),289.84,,
+Tracks per playlist (Median),112,,
+Tracks per playlist (Max),1000,,
+Tracks per playlist (Min),3,,
+Playlists with 10 to 50 songs,150,,
+
+Top 50 Tracks (TrackName),Track ID,Artist(s),Count,Playlists Count,Weighted Score
+Funeral,3rJDsZjIaCfJQSqRUvl0BM,Phoebe Bridgers,306,11,0.4198
+Funeral,4GvdsVns332wQ3JsWAg2OV,Phoebe Bridgers,286,15,0.4356
+Funeral,1cXbqxstF4p2EMysm18xZN,Phoebe Bridgers,272,1,0.3208
+No Surprises,10nyNJ6zNy2YVYLrcwLccB,Radiohead,54,52,0.4452
+Creep,70LcF31zb1H0PyJoS1Sx1r,Radiohead,50,50,0.1792
+See You Again (feat. Kali Uchis),7KA4W4McWYRpgf0fWsJZWB,"Tyler, The Creator | Kali Uchis",46,45,0.0940
+Let Down,2fuYa3Lx06QQJAm0MjztKr,Radiohead,46,46,0.2497
+Iris,6Qyc6fS4DsZjB2mRW9DsQs,The Goo Goo Dolls,45,44,0.1568
+Bring Me To Life,0COqiPhxzoWICwFCS4eZcp,Evanescence,44,43,0.1649
+Everlong,5UWwZ5lm5PKu6eKsHAGxOk,Foo Fighters,43,43,0.1253
+Yellow,3AJwUDP919kvQ9QcozQPxg,Coldplay,43,43,0.3477
+Feel Good Inc.,0d28khcov6AiegSCpG5TuT,Gorillaz | De La Soul,42,41,0.0939
+Sweater Weather,2QjOHCTQ1Jl3zawyYOpxh6,The Neighbourhood,41,41,0.1307
+How to Save a Life,5fVZC9GiM4e8vu99W0Xf6J,The Fray,41,40,0.3815
+Teenagers,7j31rVgGX9Q2blT92VBEA0,My Chemical Romance,40,40,0.0719
+Supermarket Flowers,4VuS959DSpr82t3qBqCrWG,Ed Sheeran,40,39,0.5011
+See You Again (feat. Charlie Puth),2JzZzZUQj3Qff7wapcbKjc,Wiz Khalifa | Charlie Puth,39,39,0.6216
+Fourth of July,5Qnrgqy1pAm9GyNQOgyVFz,Sufjan Stevens,39,38,0.5450
+Do I Wanna Know?,5FVd6KXrgO9B3JPmC8OPst,Arctic Monkeys,38,37,0.1081
+Change (In the House of Flies),51c94ac31swyDQj9B3Lzs3,Deftones,38,38,0.1260
+In the End,60a0Rd6pjrkxjPbaKzXjfq,Linkin Park,37,36,0.1116
+Runaway,3DK6m7It6Pw857FcQftMds,Kanye West | Pusha T,37,37,0.0774
+The Scientist,75JFxkI2RXiU7L9VXzMkle,Coldplay,37,37,0.2907
+White Ferrari,2LMkwUfqC6S6s6qDVlEuzV,Frank Ocean,36,36,0.1134
+I Wanna Be Yours,5XeFesFbtLpXzIVDNQP22n,Arctic Monkeys,36,35,0.0907
+Flashing Lights,5TRPicyLGbAF2LGBFbHGvO,Kanye West | Dwele,35,35,0.0864
+Sparks,7D0RhFcb3CrfPuTJ0obrod,Coldplay,35,35,0.3154
+Chop Suey!,2DlHlPMa4M17kufBvI2lEN,System Of A Down,34,34,0.0676
+Pink + White,3xKsf9qdS1CyvXSMEid6g8,Frank Ocean,34,34,0.0828
+Bound 2,3sNVsP50132BTNlImLx70i,Kanye West,34,34,0.0768
+PRIDE.,6IZvVAP7VPPnsGX6bvgkqg,Kendrick Lamar,34,34,0.0681
+505,58ge6dfP91o9oXMzq3XkIS,Arctic Monkeys,33,33,0.0957
+The Less I Know The Better,6K4t31amVTZDgR3sKmwUJJ,Tame Impala,33,33,0.0621
+"Lover, You Should've Come Over",6Jv7kjGkhY2fT4yuBF3aTz,Jeff Buckley,33,33,0.2146
+ARE WE STILL FRIENDS?,5TxRUOsGeWeRl3xOML59Ai,"Tyler, The Creator",33,33,0.0760
+Numb,2nLtzopw4rPReszdYBJU6h,Linkin Park,32,31,0.1201
+End of Beginning,3qhlB30KknSejmIvZZLjOD,Djo,32,32,0.1213
+Stressed Out,3CRDbSIZ4r5MsZ0YwxuEkn,Twenty One Pilots,32,32,0.0810
+Hotel California - 2013 Remaster,40riOy7x9W7GXjyGp4pjAv,Eagles,32,32,0.1047
+Hey Ya!,2PpruBYCo4H7WOBJ7Q2EwM,Outkast,31,31,0.0609
+Scar Tissue,1G391cbiT3v3Cywg8T7DM1,Red Hot Chili Peppers,31,31,0.0664
+Heartless,4EWCNWgDS8707fNSZ1oaA5,Kanye West,31,31,0.0486
+Mr. Brightside,003vvx7Niy0yvhvHt4a68B,The Killers,31,31,0.0712
+Animal I Have Become,56sk7jBpZV0CD31G9hEU3b,Three Days Grace,31,30,0.3306
+King For A Day,1IT0WQk5J8NsaeII8ktdlZ,Pierce The Veil | Kellin Quinn,31,31,0.0732
+All I Need,5Qv2Nby1xTr9pQyjkrc94J,Radiohead,31,31,0.1304
+Exit Music (For A Film),0z1o5L7HJx562xZSATcIpY,Radiohead,31,31,0.0948
+Dancing in the Sky,4kdl5LATOjf8q4bvubBlBI,Dani and Lizzy,30,30,0.4082
+NEW MAGIC WAND,0fv2KH6hac06J86hBUTcSf,"Tyler, The Creator",30,30,0.0530
+EARFQUAKE,5hVghJ4KaYES3BFUATCYn0,"Tyler, The Creator",30,30,0.0615
+
+Top 50 Artists,Count,Playlists Count,Weighted Score,,
+Drake,1932,96,3.0919,,
+Kanye West,1743,126,3.3496,,
+Kendrick Lamar,1386,111,2.3128,,
+$uicideboy$,1224,46,1.6788,,
+Phoebe Bridgers,1175,71,2.4995,,
+Travis Scott,1107,85,1.5742,,
+"Tyler, The Creator",936,102,1.9393,,
+Future,877,77,1.2888,,
+Lil Uzi Vert,824,79,1.2655,,
+Radiohead,798,123,2.9482,,
+21 Savage,735,70,1.0791,,
+Playboi Carti,713,64,0.9861,,
+Billie Eilish,679,111,2.6420,,
+Lil Peep,657,63,1.3881,,
+Mac Miller,653,67,0.9344,,
+Taylor Swift,652,86,2.6345,,
+Eminem,652,97,1.2643,,
+The Weeknd,646,106,1.1855,,
+My Chemical Romance,627,70,2.0612,,
+J. Cole,615,74,0.9622,,
+Juice WRLD,585,64,0.8559,,
+Frank Ocean,577,91,1.1778,,
+Three Days Grace,571,67,7.0929,,
+Metro Boomin,571,71,0.8804,,
+XXXTENTACION,563,92,1.0757,,
+Lana Del Rey,557,84,1.2251,,
+Nirvana,550,80,0.9297,,
+Deftones,520,64,1.6980,,
+Pierce The Veil,503,49,1.0469,,
+Arctic Monkeys,482,90,0.8770,,
+A$AP Rocky,458,76,0.7444,,
+Don Toliver,454,58,0.7135,,
+SZA,449,77,0.7273,,
+Gorillaz,443,78,0.7381,,
+Metallica,441,61,0.9337,,
+Rihanna,439,108,0.8612,,
+Lil Baby,433,51,0.5798,,
+Linkin Park,433,91,1.3566,,
+Young Thug,433,61,0.5665,,
+Lady Gaga,425,104,1.0866,,
+The Smiths,425,69,0.9118,,
+Lil Wayne,423,94,0.7124,,
+Post Malone,419,84,0.6742,,
+Gunna,417,53,0.6155,,
+The Beatles,394,93,1.6063,,
+Green Day,390,86,0.8466,,
+Coldplay,390,127,2.0859,,
+System Of A Down,390,54,0.6232,,
+Panic! At The Disco,389,67,0.7210,,
+Mitski,388,83,1.2598,,
+
+Top 50 Playlist Title Keywords,Count,,
+funeral,408,,
+songs,135,,
+play,96,,
+playlist,51,,
+music,31,,
+grief,28,,
+funerals,15,,
+loss,13,,
+2026,12,,
+best,11,,
+missing,11,,
+portrait,10,,
+passed,10,,
+away,10,,
+dad,10,,
+doom,9,,
+country,9,,
+fun,9,,
+three,8,,
+days,8,,
+grace,8,,
+prevail,8,,
+grieving,8,,
+death,8,,
+someone,8,,
+instrumental,8,,
+played,7,,
+about,7,,
+hymns,7,,
+loved,6,,
+christian,6,,
+para,6,,
+dying,6,,
+sad,6,,
+soundtrack,6,,
+metal,6,,
+home,6,,
+setlist,6,,
+new,5,,
+died,5,,
+gospel,5,,
+tour,5,,
+put,5,,
+losing,5,,
+black,5,,
+living,4,,
+sleep,4,,
+mix,4,,
+mom,4,,
+quiero,4,,
+
+Top 50 Playlist Description Keywords,Count,,
+funeral,84,,
+songs,60,,
+playlist,45,,
+x27,38,,
+play,24,,
+quot,24,,
+when,21,,
+x2f,21,,
+music,19,,
+death,19,,
+all,15,,
+loved,13,,
+will,11,,
+sad,10,,
+one,10,,
+loss,10,,
+love,10,,
+grief,10,,
+can,10,,
+funerals,10,,
+like,10,,
+just,9,,
+doom,9,,
+played,9,,
+listen,9,,
+mix,9,,
+2026,8,,
+amp,8,,
+someone,8,,
+out,8,,
+metal,8,,
+have,7,,
+lost,7,,
+what,7,,
+grace,7,,
+portrait,7,,
+about,7,,
+cry,7,,
+losing,7,,
+life,7,,
+list,7,,
+days,6,,
+prevail,6,,
+service,6,,
+some,6,,
+que,5,,
+who,5,,
+ones,5,,
+around,5,,
+time,5,,
