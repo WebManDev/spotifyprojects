@@ -1,0 +1,1 @@
+remove quot for html, (Reorder phoebe bridges, its outta place, may need to do it manually), 3 days grace, investigate why they are popping up so much, do a histogram of track counts, group lets do less than 20, 20-50,50-100,100-500,500-1000, 1k+, do it for followers as well, do 1-10,10-50, etc etc 

@@ -31,6 +31,7 @@ DESCRIPTION_EXTRA_SKIP = frozenset(
         "can",
         "x2f",
         "x27",
+        "quot",
         "play",
         "playlist",
         "songs",

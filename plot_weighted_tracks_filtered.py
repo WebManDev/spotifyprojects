@@ -11,6 +11,7 @@ import matplotlib.ticker as mticker
 import pandas as pd
 
 DEFAULT_TRACKS = Path(__file__).parent / "spotify_playlist_tracks_clean2.csv"
+DEFAULT_PLAYLISTS = Path(__file__).parent / "spotify_playlist_clean2.csv"
 OUT_PATH = Path(__file__).parent / "newTruncatedData" / "top_50_tracks_by_weighted_score_new.png"
 
 # Case-insensitive substring on track name + artists
@@ -65,6 +66,17 @@ def save_barh_weighted(out_path: Path, title: str, labels: list[str], values: li
 def main() -> None:
     print(f"Loading {DEFAULT_TRACKS.name} ...")
     df_tracks = pd.read_csv(DEFAULT_TRACKS, dtype=str)
+    print(f"Loading {DEFAULT_PLAYLISTS.name} ...")
+    df_playlists = pd.read_csv(DEFAULT_PLAYLISTS, dtype=str)
+
+    # Ensure weighted scores reflect only the current cleaned playlist set.
+    allowed_playlist_ids = set(
+        df_playlists["uri"]
+        .fillna("")
+        .str.replace("spotify:playlist:", "", regex=False)
+    )
+    df_tracks = df_tracks[df_tracks["playlistId"].isin(allowed_playlist_ids)]
+
     track_counts = weighted_track_table(df_tracks)
     track_counts = track_counts[~track_counts.apply(is_excluded, axis=1)]
     top50 = track_counts.sort_values("weighted_score", ascending=False).head(50)
